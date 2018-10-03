@@ -110,10 +110,7 @@ public class Bank {
         System.out.println("Bank account for Johy Ive created\n\n");
 
         // Deposit money to both accounts and print new balance
-        bank.depositMoney(account1, 1000.0);
-        bank.depositMoney(account2, 5000.0);
 
-        // Withdraw money from Account 2 and print new balance
         bank.withdrawMoney(account2, 200.0);
 
         // Transfer money from Account 2 to Account 1 and print new balances
